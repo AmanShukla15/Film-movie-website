@@ -1,25 +1,26 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useContext } from 'react';
 import { AppBar, IconButton, Toolbar, Drawer, Button, Avatar, useMediaQuery } from '@mui/material';
 import { Menu, AccountCircle, Brightness4, Brightness7 } from '@mui/icons-material';
 import { Link } from 'react-router-dom';
 import { useTheme } from '@mui/material/styles';
 import { useDispatch, useSelector } from 'react-redux';
 
+import { ColorModeContext } from '../../utils/ToggleColorMode'
 import { setUser, userSelector } from '../../features/auth';
 import { Sidebar, Search } from '..'
 import { fetchToken, createSessionId, moviesApi } from '../../utils'
 
 import useStyles from './styles'
 
-const Navbar = () => { 
+const Navbar = () => {
   const { isAuthenticated, user } = useSelector(userSelector)
   const [mobileOpen, setMobileOpen] = useState(false)
   const classes = useStyles();
   const isMobile = useMediaQuery('(max-width:600px)');
   const theme = useTheme();
-  const dispatch = useDispatch(); 
+  const dispatch = useDispatch();
 
-  console.log("User ", user);
+  const colorMode = useContext(ColorModeContext);
 
   const token = localStorage.getItem('request_token');
   const sessionIdFromLocalStorage = localStorage.getItem('session_id');
@@ -61,7 +62,7 @@ const Navbar = () => {
           )}
           <IconButton color="inherit"
             sx={{ ml: 1 }}
-            onclick={() => { }}>
+            onClick={colorMode.toggleColorMode}>
             {
               theme.palette.mode === 'dark' ? <Brightness7 /> : <Brightness4 />
             }
@@ -77,7 +78,7 @@ const Navbar = () => {
                 component={Link}
                 to={`/profile/${user.id}`}
                 className={classes.linkButton}
-                onclick={() => { }}
+                onClick={() => { }}
               >
                 {!isMobile && <>My Movies &nbsp;</>}
                 <Avatar
