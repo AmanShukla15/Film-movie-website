@@ -1,7 +1,7 @@
 
 It is a Fully funtioning movie website with voice command assistance.
 
-NOTE:  Use VPN to login 
+NOTE:  Use VPN to login, 
 LINK TO VISIT WEBSITE ------>     https://6594b2ccadc6ff37a0beebec--glittering-fudge-ce61b1.netlify.app/
 
 ::Features of this website 
