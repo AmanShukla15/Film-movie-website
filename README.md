@@ -2,23 +2,27 @@
 It is a Fully funtioning movie website with voice command assistance.
 
 NOTE:  Use VPN to login 
+LINK TO VISIT WEBSITE ------>     https://6594b2ccadc6ff37a0beebec--glittering-fudge-ce61b1.netlify.app/
 
-Features of this website :-
--Authorization, 
+::Features of this website 
 
--Get movie recommendation specific to genres and categories, 
+->Authorization, 
 
--Actor specific movie suggestion, 
+->Get movie recommendation specific to genres and categories, 
 
--Dedicated actor details page and Movie details page, 
+->Actor specific movie suggestion, 
 
--Dark and Normal mode, 
+->Dedicated actor details page and Movie details page, 
 
--Voice Assitance
+->Dark and Normal mode, 
 
--personalized add movies to favorite and watchlist.
+->Voice Assitance
+
+->personalized add movies to favorite and watchlist.
+
 
 ............IMPORTANT............
+
 ::: Some Voice commands such as :::
 
 ->"Make it Dark" or "Make it bright" - toggle appearance,
@@ -27,7 +31,6 @@ Features of this website :-
 
 ->"Search for ${movie_name} - searching movies
 
-LINK TO VISIT WEBSITE ------>     https://6594b2ccadc6ff37a0beebec--glittering-fudge-ce61b1.netlify.app/
 
 ReactJS, REDUX, MATERIAL UI, ALAN AI and third party api
 
