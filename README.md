@@ -31,6 +31,12 @@ LINK TO VISIT WEBSITE ------>     https://6594b2ccadc6ff37a0beebec--glittering-f
 
 ->"Search for ${movie_name} - searching movies
 
+-> login and logout 
+
+-> Surprise me - To get random recommendations
+
+-> its Halloween - dark mode 
+
 
 ReactJS, REDUX, MATERIAL UI, ALAN AI and third party api
 
