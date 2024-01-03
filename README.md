@@ -1,7 +1,7 @@
 
 It is a Fully funtioning movie website with voice command assistance.
 
-NOTE: use VPN to login 
+NOTE:  Use VPN to login 
 
 Features of this website :-
 -Authorization, 
