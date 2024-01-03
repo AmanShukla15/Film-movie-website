@@ -1,42 +1,19 @@
+Welcome to a fully functioning movie website with voice command assistance! This innovative platform, accessible via VPN, offers a unique movie experience tailored to your preferences. 
 
-It is a Fully funtioning movie website with voice command assistance.
+Key Features:
+- **Authorization**: Secure login to personalize your experience.
+- **Movie Recommendations**: Discover movies specific to your favorite genres and categories.
+- **Actor-Specific Suggestions**: Find movies featuring your favorite actors.
+- **Detailed Pages**: Dive into dedicated pages for each actor and movie.
+- **Dark and Normal Mode**: Choose your preferred visual theme for a comfortable browsing experience.
+- **Voice Assistance**: Navigate and interact with the site using voice commands.
+- **Personalized Lists**: Add movies to your favorite list and watchlist.
 
-NOTE:  Use VPN to login, 
-LINK TO VISIT WEBSITE ------>     https://6594b2ccadc6ff37a0beebec--glittering-fudge-ce61b1.netlify.app/
+Voice Commands:
+- **Appearance Toggle**: Say "Make it Dark" or "Make it bright" to switch themes.
+- **Category/Genre Selection**: Say "Go To ${Category_name} or ${Genre_name}" to explore specific categories or genres.
+- **Movie Search**: Say "Search for ${movie_name}" to find your next movie.
+- **Random Recommendations**: Say "Surprise me" for a spontaneous movie suggestion.
+- **Halloween Mode**: Say "It's Halloween" to switch to dark mode.
 
-::Features of this website 
-
-->Authorization, 
-
-->Get movie recommendation specific to genres and categories, 
-
-->Actor specific movie suggestion, 
-
-->Dedicated actor details page and Movie details page, 
-
-->Dark and Normal mode, 
-
-->Voice Assitance
-
-->personalized add movies to favorite and watchlist.
-
-
-............IMPORTANT............
-
-::: Some Voice commands such as :::
-
-->"Make it Dark" or "Make it bright" - toggle appearance,
-
-->"Go To ${Category_name} or ${Genre_name}" - selecting category and genre
-
-->"Search for ${movie_name} - searching movies
-
--> login and logout 
-
--> Surprise me - To get random recommendations
-
--> its Halloween - dark mode 
-
-
-ReactJS, REDUX, MATERIAL UI, ALAN AI and third party api
-
+This website is built using ReactJS, Redux, Material UI, Alan AI, and third-party APIs, showcasing a blend of modern web technologies. Enjoy your movie journey! 
