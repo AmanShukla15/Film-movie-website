@@ -5,11 +5,17 @@ NOTE:  Use VPN to login
 
 Features of this website :-
 -Authorization, 
+
 -Get movie recommendation specific to genres and categories, 
+
 -Actor specific movie suggestion, 
+
 -Dedicated actor details page and Movie details page, 
+
 -Dark and Normal mode, 
+
 -Voice Assitance
+
 -personalized add movies to favorite and watchlist.
 
 ............IMPORTANT............
