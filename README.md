@@ -17,3 +17,5 @@ Voice Commands:
 - **Halloween Mode**: Say "It's Halloween" to switch to dark mode.
 
 This website is built using ReactJS, Redux, Material UI, Alan AI, and third-party APIs, showcasing a blend of modern web technologies. Enjoy your movie journey! 
+
+Link to visit website ->  https://6594b2ccadc6ff37a0beebec--glittering-fudge-ce61b1.netlify.app/
